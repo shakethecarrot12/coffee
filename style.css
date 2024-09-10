@@ -1,0 +1,12 @@
+/* Typography */
+:root {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(images/background.png);
+}
+
+/* main */
+.main{
+  width: 1076px;
+  height: 538px;
+  background-color: white;
+}
