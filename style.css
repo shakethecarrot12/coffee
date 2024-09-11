@@ -6,6 +6,12 @@ p {
   padding: unset;
 }
 
+h1,p{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'arial';
+}
+
 
 /* Typography */
 :root {
@@ -18,7 +24,7 @@ p {
 }
 
 /* wrapper */
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: center;
   margin-top: 271px;
@@ -27,18 +33,53 @@ p {
 /* main */
 .main {
   display: flex;
-  width: 1076px;
-  height: 538px;
+  min-width: 1076px;
+  /*최소 넓이를 줘서 유동성 추가*/
+  min-height: 538px;
+  /*최소 높이를 줘서 유동성 추가*/
   background-color: white;
 }
 
 
 
 /* main left */
-.main-left{
-  box-shadow: inset 0 0 20px red;
+.main-left {
+  width: 244px;
+  /*여기는 고정값을 주고,*/
+
+  background-image: url(images/sidebar-background.png);
+  background-size: cover;
+  text-align: center;
+
+  
+  box-sizing: border-box;
 }
+
+.side-bar-title{
+  display: inline;
+  border-bottom: solid 8px #444444;
+
+  color:#ffffff;
+  font-size: 24px;
+  font-family: Montserrat;
+}
+.side-bar-icon{
+  display: inline;
+  width: 79px;
+  height: 71.5px;
+  margin-left: 27px;
+}
+.side-bar-text{
+  color:#999999;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: normal;
+
+  margin-top: 7.5px;
+}
+
 /* main right */
-.main-right{
-  box-shadow: inset 0 0 20px red;
+.main-right {
+  flex-grow: 1;
+  /*여기에 그로우를 줘서 유동적으로 함*/
 }
