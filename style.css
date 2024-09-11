@@ -1,12 +1,44 @@
+/* reset */
+body,
+h1,
+p {
+  margin: unset;
+  padding: unset;
+}
+
+
 /* Typography */
 :root {
   font-family: "Montserrat", sans-serif;
+}
+
+/* background */
+:root {
   background-image: url(images/background.png);
 }
 
+/* wrapper */
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 271px;
+}
+
 /* main */
-.main{
+.main {
+  display: flex;
   width: 1076px;
   height: 538px;
   background-color: white;
+}
+
+
+
+/* main left */
+.main-left{
+  box-shadow: inset 0 0 20px red;
+}
+/* main right */
+.main-right{
+  box-shadow: inset 0 0 20px red;
 }
