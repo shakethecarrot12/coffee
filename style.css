@@ -43,6 +43,9 @@ p {
   min-height: 538px;
   /*최소 높이를 줘서 유동성 추가*/
   background-color: white;
+
+  border-radius: 6px;
+  
 }
 
 
@@ -58,6 +61,7 @@ p {
 
 
   box-sizing: border-box;
+  border-radius: 6px 0 0 6px;
 }
 
 .side-bar-title {
