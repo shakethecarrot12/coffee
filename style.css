@@ -6,8 +6,8 @@ p {
   padding: unset;
 }
 
-button{
-  border:none;
+button {
+  border: none;
 }
 
 h1,
@@ -45,7 +45,7 @@ p {
   background-color: white;
 
   border-radius: 6px;
-  
+
 }
 
 
@@ -65,6 +65,12 @@ p {
 }
 
 .side-bar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-bar-title-text {
   display: inline;
   border-bottom: solid 8px #444444;
 
@@ -86,7 +92,7 @@ p {
   font-family: Montserrat;
   font-weight: normal;
   line-height: 140%;
-  
+
 
   margin-top: 7.5px;
 }
@@ -96,7 +102,7 @@ p {
   height: 22px;
 
 
-  font-size:12px;
+  font-size: 12px;
   font-weight: bold;
   line-height: 120%;
   letter-spacing: 18%;
@@ -119,45 +125,49 @@ p {
 .main-right {
   flex-grow: 1;
   /*여기에 그로우를 줘서 유동적으로 함*/
-  padding:16px;
+  padding: 16px;
 }
 
-.main-right-top{
-  
+.main-right-top {
+
   box-sizing: border-box;
 }
 
-.main-right-top-text{
+.main-right-top-text {
   display: flex;
   justify-content: space-between;
   border-bottom: 10px solid #eeeeee;
 }
 
-.main-right-top-title{
+.main-right-top-title {
   font-family: Montserrat;
   font-size: 24px;
-  color:#666666;
+  color: #666666;
 }
-.main-right-top-sub{
-  display:flex;
+
+.main-right-top-sub {
+  display: flex;
   font-family: Montserrat;
   font-size: 10px;
-  color:#666666;
+  color: #666666;
   justify-content: center;
   align-items: center;
-  
+
 
   background-color: #eeeeee;
   width: 74px;
-  height: 18px;;
+  height: 18px;
+  ;
   border-radius: 56px;
 }
 
-.main-right-top-img{
+.main-right-top-img {
   display: flex;
-  gap:16px;
+  gap: 16px;
+  margin-top: 16px;
 }
-.img-size{
+
+.img-size {
   width: 120px;
   height: 120px;
 }
@@ -165,28 +175,63 @@ p {
 
 /* right bottom */
 
-.main-right-bottom-text{
+.main-right-bottom-text {
   display: flex;
   justify-content: space-between;
   border-bottom: 10px solid #eeeeee;
+
+  margin-top: 30px;
 }
 
-.main-right-bottom-title{
+.main-right-bottom-title {
   font-family: Montserrat;
   font-size: 24px;
-  color:#666666;
+  color: #666666;
 }
-.main-right-bottom-sub{
-  display:flex;
+
+.main-right-bottom-sub {
+  display: flex;
   font-family: Montserrat;
   font-size: 10px;
-  color:#666666;
+  color: #666666;
   justify-content: center;
   align-items: center;
-  
+
 
   background-color: #eeeeee;
   width: 74px;
-  height: 18px;;
+  height: 18px;
+  ;
   border-radius: 56px;
+}
+
+/* coment */
+.main-right-bottom-coment {
+  display: flex;
+  gap: 16px;
+}
+
+.coment-text {
+  background-color: #eeeeee;
+  flex-grow: 1;
+  width: 256px;
+  height: 250px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 16px;
+
+  font-size: 14px;
+  color: #333333;
+  line-height: 140%;
+  font-weight: normal;
+  position: relative;
+}
+
+.coment-user{
+  display: block;
+  position:absolute;
+  
+  right: 16px;
+  bottom: 16px;
 }
