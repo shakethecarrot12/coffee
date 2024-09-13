@@ -119,4 +119,74 @@ p {
 .main-right {
   flex-grow: 1;
   /*여기에 그로우를 줘서 유동적으로 함*/
+  padding:16px;
+}
+
+.main-right-top{
+  
+  box-sizing: border-box;
+}
+
+.main-right-top-text{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid #eeeeee;
+}
+
+.main-right-top-title{
+  font-family: Montserrat;
+  font-size: 24px;
+  color:#666666;
+}
+.main-right-top-sub{
+  display:flex;
+  font-family: Montserrat;
+  font-size: 10px;
+  color:#666666;
+  justify-content: center;
+  align-items: center;
+  
+
+  background-color: #eeeeee;
+  width: 74px;
+  height: 18px;;
+  border-radius: 56px;
+}
+
+.main-right-top-img{
+  display: flex;
+  gap:16px;
+}
+.img-size{
+  width: 120px;
+  height: 120px;
+}
+
+
+/* right bottom */
+
+.main-right-bottom-text{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid #eeeeee;
+}
+
+.main-right-bottom-title{
+  font-family: Montserrat;
+  font-size: 24px;
+  color:#666666;
+}
+.main-right-bottom-sub{
+  display:flex;
+  font-family: Montserrat;
+  font-size: 10px;
+  color:#666666;
+  justify-content: center;
+  align-items: center;
+  
+
+  background-color: #eeeeee;
+  width: 74px;
+  height: 18px;;
+  border-radius: 56px;
 }
